@@ -1,0 +1,57 @@
+.profile {
+  display: grid;
+  place-items: center;
+  height: 350px;
+  width: 300px;
+  background-color: rgba(74, 176, 235, 0.552);
+  /* flex-direction: column; */
+}
+.description {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+
+.description > p {
+  margin: 0;
+}
+.avatar {
+  width: 100px;
+}
+.name {
+}
+.tag {
+}
+.location {
+}
+.stats {
+  display: flex;
+  padding: 0 0 0 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid gray;
+}
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  width: 33%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats > li:nth-child(1) {
+  border-right: 1px solid gray;
+}
+.stats > li:nth-child(2) {
+  border-right: 1px solid gray;
+}
+.label {
+}
+.quantity {
+}

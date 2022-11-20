@@ -1,0 +1,32 @@
+.statistics {
+  width: 300px;
+  margin-top: 50px;
+}
+.title {
+  text-align: center;
+}
+.stat_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 60px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.item > span:not(:last-child) {
+  margin-bottom: 10px;
+}
+.label {
+}
+.percentage {
+}
